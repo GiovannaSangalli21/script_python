@@ -32,9 +32,25 @@ print(f"O menor numero é: {menor}"): esse codigo e para mostrar no final qual v
 
 
 
+
+
+
+
  <img width="245" height="98" alt="image" src="https://github.com/user-attachments/assets/799e9c30-8997-4cd5-9b74-a5067a358295" />
 
+nome = input("digite seu nome"): esse codigo pede para o usuario digitar o nome, a guarda a informação dentro de um variavel chamado nome 
 
+for i in range(1, len(nome)+1): aqui começa o laço de repetição for, que vai contando usando a variavel i
+
+len(nome): para descobrir o tamanho do nome digitado
+
+range(1, len(nome)+1): cria uma sequencia de numeros, que começa do 1 e vai ate o tamanho do nome
+
+print(nome[:i]): aqui a gente usa a tecnica de fatiamento de strings 
+
+nome[:i]: pegue o texto da variavel nome do começo ate a posição i, mais sem incluir a posição i
+
+[i]: a cada volta, o valor de i aumenta mostrando uma letra a mais 
 
 
  
