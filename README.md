@@ -22,11 +22,14 @@ print(f"{num} x {i} = {resultado}"): mostra a tabuada montada na tela
 
 <img width="528" height="593" alt="image" src="https://github.com/user-attachments/assets/286371ba-1eb2-4ff0-94e3-c5edffc9d3db" />
 
-Aqui utiliza 3 variaveis (x1, x2, x3) para guardar numeros inteiros pelo teclado, ja a função int(input()) para que os dados sejam tratados em numeros.
+Aqui utiliza 3 variaveis (x1, x2, x3).
 
-if-elif-else para todas possibilidades lógicas 
+Se o x1 for maior ou igual a x2, ou a mesma coisa com o x3, descobrimos o resultado, o maior seria o x1
 
-(if/elif/else): para determinar qual dos tres numeros é maior.
+elif: ele serve para organizar os 3 numeros em ordem ele descobre, quem é do começo, meio e final 
+
+print(f"O menor numero é: {menor}"): esse codigo e para mostrar no final qual variavel ficou com o titulo de menor e maior
+
 
 
  <img width="245" height="98" alt="image" src="https://github.com/user-attachments/assets/799e9c30-8997-4cd5-9b74-a5067a358295" />
